@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form</title>
+</head>
+
+<body style="background-color:#D3D3D3;">
+
+    <h1>Please fill in the below details</h1>
+
+    <form method = "get" action="form.htm">
+        <label for="email" >Email:</label>
+        <input type = "text" name="email" required/></br></br>
+
+        <label for="password" >Password:</label>
+        <input type = "password" name="password"/></br></br>
+
+        <label for="confirmPassword" >Confirm Password:</label>
+        <input type = "password" name="confirmPassword"/></br></br>
+
+        <label for="picture">Upload Your Picture:</label>
+        <input type = "file" name="picture"/></br></br>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="Female">
+        <label for="female">Female</label></br></br>
+
+        <label for = "country">Select a Country :</label>
+        <select name = "country" >
+            <option value = "India"> India </option>
+            <option value = "United States of America"> United States of America </option>
+            <option value = "United Kingdom"> United Kingdom </option>
+            <option value = "China"> China </option>
+        </select>
+        <br>
+        <br>
+        <label for="hobby">Hobby:</label>
+        <input type="checkbox"  name="hobby" value="Cricket">
+        <label for="Cricket">Cricket</label>
+        <input type="checkbox"  name="hobby" value="Football">
+        <label for="Football">Football</label>
+        
+        <br>
+        <br>
+        <label for="address">Address:</label>
+        <textarea type="textarea" name="address" rows=5 cols=40></textarea></br></br>
+
+        <input type="submit" value="Submit"/>
+    </form>
+</body>
+</html>

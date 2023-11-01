@@ -1,0 +1,11 @@
+<web-app>
+<servlet>
+<servlet-name>displayheaders</servlet-name>
+<servlet-class>GetHeaders</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>displayheaders</servlet-name>
+<url-pattern>/displayheaders</url-pattern>
+</servlet-mapping>
+</web-app>
